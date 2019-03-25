@@ -3,6 +3,7 @@ public interface Unit {
 
     Unit kmPerHour = new KmPerHour();
     Unit metersPerSecond = new MetersPerSecond();
+
     class MetersPerSecond implements Unit {
         private MetersPerSecond() {
         }
@@ -17,7 +18,7 @@ public interface Unit {
         }
 
         public double getRatio() {
-            return 36d/10d;
+            return 36d / 10d;
         }
     }
 }
